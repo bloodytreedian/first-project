@@ -32,19 +32,19 @@ class LoginController extends Controller
         return view('register');
     }
 
-//    /**
-//     * @param Request $request
-//     */
-//    public function saveUser(Request $request)
-//    {
-//        $userData = [
-//            'name' => $request->get('name'),
-//            'email' => $request->get('email'),
-//            'password' => MD5($request->get('password')),
-//        ];
+
+    public function saveRegister(Request $request)
+    {
+        $userData = [
+            'name' => $request->get('email'),
+            'password' => MD5($request->get('password')),
+        ];
+
+        echo '<pre>';
+        print_r($userData);
 //
 //        $this->userService->createUser($userData);
-//    }
+    }
 
 
     public function verifyUser(Request $request)

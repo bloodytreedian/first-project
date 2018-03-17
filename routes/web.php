@@ -23,3 +23,7 @@ Route::get('/login', [
 Route::get('/register', [
     'uses' => 'LoginController@register'
 ]);
+
+Route::post('/save_register', [
+    'uses' => 'LoginController@saveRegister'
+]);

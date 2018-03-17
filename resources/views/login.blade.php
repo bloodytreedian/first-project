@@ -9,7 +9,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/demo.css') }}" rel="stylesheet" type="text/css">\
+    <link href="{{ asset('css/demo.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="flex-center position-ref full-height">
@@ -18,7 +18,7 @@
             Login
         </div>
         <div>
-            <input type="text" name="user" class="user input" placeholder="User Name">
+            <input type="text" name="email" class="email input" placeholder="Email">
             <input type="password" name="password" class="password input" placeholder="password">
         </div>
         <div class="submit_div">
